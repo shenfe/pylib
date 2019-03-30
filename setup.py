@@ -196,7 +196,7 @@ setup(
     name=NAME,
     version=find_version(),
     description='a python library',
-    url='https://code.byted.org/shenke/modules_via_git',
+    url='https://github.com/shenfe/pylib',
     author='shenke',
     license='BSD',
 
