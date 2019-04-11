@@ -57,7 +57,7 @@ def get_requirements():
 
 def package_files(directory, f=None):
     if isinstance(directory, (list, tuple)):
-        l = [package_files(d) for d in directory]
+        l = [package_files(d, f=f) for d in directory]
         return [item for sublist in l for item in sublist]
     directory = os.path.join(BASE_DIR, directory)
     paths = []
